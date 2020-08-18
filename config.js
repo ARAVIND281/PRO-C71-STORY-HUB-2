@@ -1,5 +1,5 @@
 import *as firebase from "firebase"
-require('atfirebase/firestore')
+require('@firebase/firestore')
   
   var firebaseConfig = {
     apiKey: "AIzaSyDvoFCWi44DmPl1dv3TTSxOExRVTszzvKM",
@@ -13,4 +13,4 @@ require('atfirebase/firestore')
   
   firebase.initializeApp(firebaseConfig);
 
-export default firebase.firestore();
+  export default firebase.firestore();
